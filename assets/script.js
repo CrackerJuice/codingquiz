@@ -1,4 +1,19 @@
-var currentQuestion = 0; 
+const startBtn =document.getElementById('start-btn')
+const submitButton =document.getElementById(submitButton)
+const qContainer =document.getElementById(qbox)
+
+startBtn.addEventListener('click', startQuiz)
+submitButton.addEventListener('click', () => {
+
+})
+function startQuiz(){
+
+}
+
+function submitBtn() {
+
+}
+/*var currentQuestion = 0; 
 var time =question.length * 15; //can change number of questions later?
 var clockId;
 var timerEl =document.getElementById('time')
@@ -14,4 +29,4 @@ timerEl.textContent=time;
 //function changeColor(newColor) { add for later buttons -mdn article
   //  const elem = document.getElementById('text');
     //elem.style.color = newColor;
-//}
+//}*/
