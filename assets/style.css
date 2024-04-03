@@ -46,17 +46,17 @@ body {
     padding: 10px;
     margin: 10px auto;
     border-radius: 6px;
-    cursor: pointer;
     transition: 0.5s;
 }
 
 .btn:hover {
     background-color: #4a4a4a;
     color: white;
+    cursor: pointer;
 
 }
 
-#submit-btn {
+.submit-btn {
     background: white;
     color: black;
     font-size: 20px;
@@ -64,4 +64,25 @@ body {
     width: 300px;
     height: 50px;
     margin: 30px 30px 30px 75px; 
+    border-radius: 6px;
+}
+
+.submit-btn:hover {
+    background-color: #4a4a4a;
+    color: white;
+    cursor: pointer;
+}
+
+.time {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    height: 150px;
+    width: 250px;
+    background-color: #989494;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -120px;
+    border-radius: 10px;
 }
