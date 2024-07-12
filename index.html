@@ -1,31 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets\style.css"/>
-    <title></title>
- </head>
-  <body>
-    <div id="jstime">
-      <div class="time">
-        60
-      </div>
-    <div class="main">
-      <h1>Coding Quiz</h1>
-      <div class="idk">
-        <h2 id="ques">questions</h2>
-         <div id="answerbtn">
-          <button class="btn">answer 1</button>
-          <button class="btn">answer 2</button>
-          <button class="btn">answer 3</button>
-          <button class="btn">answer 4</button>
-         </div>
-         <button class="submit-btn">next</button>
-      </div>
+<html>
+<head>
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz">
+        <h1>JavaScript Quiz</h1>
+        <div class="timer"><span id="timer">60</span> seconds left</div>
+        <form id="answers">
+            <div id="questions"></div>
+            <button class="nextBtn">Next question</button>
+        </form>
+        <div id="results"></div>
     </div>
 
-
-
-  </body>
+    <script src="quiz.js"></script>
+</body>
 </html>
+
+

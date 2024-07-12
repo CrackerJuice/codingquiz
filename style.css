@@ -1,0 +1,37 @@
+body {
+    margin: 5rem;
+    background-color: #e06c71;
+}
+.quiz {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0a39d;
+}
+.question {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.choices {
+    list-style: none;
+    padding: 0;
+}
+.choices li {
+    margin-bottom: 10px;
+}
+.choices input[type="radio"] {
+    margin-right: 5px;
+}
+.nextBtn {
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: #e3bbbc;
+    background-color: #f7b11e;
+}
+.timer {
+    text-align: right;
+    margin-bottom: 20px;
+}
